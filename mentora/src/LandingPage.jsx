@@ -34,7 +34,7 @@ function LandingPage() {
     {
       quote: "Education is the manifestation of the perfection already in man.",
       image:
-        "https://5.imimg.com/data5/ANDROID/Default/2023/3/MV/BO/HY/186207530/product-jpeg-500x500.jpg",
+        "https://rhythmartgallery.com/wp-content/uploads/2017/09/Tripurari-Singh-Portrait1-22-x-18-inches-Oil-on-canvas-487x600-1.jpg",
     },
     {
       quote:
