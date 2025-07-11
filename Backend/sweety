@@ -1,0 +1,50 @@
+/mentorship-backend
+│── /src
+│   │── app.js                # Express app configuration (middlewares, routes)✅
+│   │── index.js              # Main entry point (server + socket setup)✅
+│   │── /config
+│   │   │── db.js             # MongoDB connection✅
+│   │   │── cloudinary.js     # Cloud storage config✅
+│   │   │── auth.js           # Authentication-related config (JWT, OAuth, etc.)✅
+│   │── /models
+│   │   │── user.model.js     # User schema (mentors & mentees)✅
+│   │   │── session.model.js  # Mentorship session schema✅
+│   │   │── chat.model.js     # Chat schema (conversations)✅
+│   │   │── message.model.js  # Messages schema✅
+│   │   │── earnings.model.js # Payment earnings schema✅
+│   │   │── rating.model.js   # Ratings & reviews schema✅
+│   │   │── feedback.model.js # Feedback schema✅
+│   │   │── blog.model.js     # Blog posts schema✅
+│   │── /controllers
+│   │   │── auth.controller.js      # Handles login, registration, JWT✅ 
+│   │   │── user.controller.js      # User profile, account updates✅ 
+│   │   │── mentor.controller.js    # Mentor-specific actions✅ 
+│   │   │── session.controller.js   # Mentorship session booking✅ 
+│   │   │── chat.controller.js      # Handles chat messaging
+│   │   │── payment.controller.js   # Stripe/Razorpay payments
+│   │   │── blog.controller.js      # Blog post creation & management✅
+│   │── /routes
+│   │   │── auth.routes.js         # Authentication endpoints✅ 
+│   │   │── user.routes.js         # User profile & settings endpoints✅ 
+│   │   │── mentor.routes.js       # Mentor-specific endpoints✅ 
+│   │   │── session.routes.js      # Session booking APIs✅ 
+│   │   │── chat.routes.js         # Chat endpoints
+│   │   │── payment.routes.js      # Payment processing APIs
+│   │   │── blog.routes.js         # Blog-related APIs✅
+│   │── /middlewares
+│   │   │── auth.middleware.js     # JWT authentication middleware✅
+│   │   │── multer.middleware.js   # File upload handling✅
+│   │── /utils
+│   │   │── ApiResponse.js         # Standardized API response formatting✅
+│   │   │── ApiError.js            # Centralized error handling✅
+│   │── /services
+│   │   │── payment.service.js     # Payment processing logic
+│   │   │── notification.service.js # Email/SMS notifications
+│   │── /sockets
+│   │   │── chat.socket.js         # Handles real-time messaging with Socket.io
+│   │   │── notification.socket.js # Real-time notifications
+│   │── /public
+│   │   │── uploads/               # Profile pictures, documents storage
+│   │── .env                       # Environment variables
+│   │── package.json                # Node.js dependencies
+│   │── README.md                   # Project documentation
