@@ -34,7 +34,7 @@ function LandingPage() {
     {
       quote: "Education is the manifestation of the perfection already in man.",
       image:
-        "https://bookshub.co.in/public/media/authors/7b7ff4e64c20758eb11a5e95411d209e.jpg",
+        "https://5.imimg.com/data5/ANDROID/Default/2023/3/MV/BO/HY/186207530/product-jpeg-500x500.jpg",
     },
     {
       quote:
