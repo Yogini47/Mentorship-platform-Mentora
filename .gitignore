@@ -1,0 +1,7 @@
+# Ignore dependencies and config
+node_modules/
+.env
+.vscode/
+dist/
+build/
+.DS_Store
